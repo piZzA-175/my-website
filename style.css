@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(sea.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #438BC4;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fbe29d;
+    z-index: 100;
+}
+
+.navbar a {
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px;
+    margin: auto;
+    color: #438BC4;
+}
+
+.navbar a:hover {
+    color: #215798;
+}
+
+header {
+    font-family: "Mystery Quest", system-ui;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+    margin: 50px;
+    color: #225688;
+}
+
+.languages,
+.skills,
+.about-me {
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgba(50, 78, 181, 0.7);
+    border-radius: 20px;
+    color: #fbe29d;
+    max-width: 600px;
+}
+
+.languages h3,
+.skills h3,
+.about-me h3 {
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.languages ul,
+.skills ul,
+.about-me p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+    
